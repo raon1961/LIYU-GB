@@ -1,9 +1,20 @@
-const member = {
-  id: 6,
-  name: "CHUEI LI YU",
-  img: "images/chuei-li-yu.jpg",
-  bio: "BOYS II PLANET에서 슈퍼스타가 될 첫 STEP을 내딛겠습니다!"
-};
+const members = [
+  { 
+    id: 1, 
+    name: "LEE SANG WON", 
+    profileImgs: ["images/lee-sang-won1.jpg", "images/lee-sang-won2.jpg"], 
+    detailImg: "images/lee-sang-won-detail.jpg", 
+    bio: "저는 늘 최선을 택하겠습니다." 
+  },
+  { 
+    id: 2, 
+    name: "ZHOU AN XIN", 
+    profileImgs: ["images/zhou-an-xin1.jpg", "images/zhou-an-xin2.jpg", "images/zhou-an-xin3.jpg"], 
+    detailImg: "images/zhou-an-xin-detail.jpg", 
+    bio: "이번 프로그램에서 최선을 다해서 제 모든 것을 보여드리고 여한 없이 하겠습니다." 
+  },
+  // ... 나머지 멤버들도 똑같이 profileImgs 배열로 수정
+];
 
 // 스크롤 등장 훅
 function useScrollAnimation() {
@@ -22,62 +33,100 @@ function useScrollAnimation() {
   return [ref, visible];
 }
 
-// 멤버 카드 (풀페이지 느낌)
-function MemberSection({ member }) {
+// 멤버 카드
+function MemberCard({ member, onClick }) {
   const [ref, visible] = useScrollAnimation();
-  return React.createElement(
-    "section",
-    {
-      ref: ref,
-      className: `w-full h-screen flex flex-col items-center justify-center text-center px-4 transition-all duration-1000 transform ${
-        visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-      }`,
-      style: {
-        backgroundImage: `url('images/background.jpg')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
-      }
-    },
-    React.createElement("div", { className: "w-64 sm:w-80 md:w-96 lg:w-1/3 relative" },
-      React.createElement("img", { src: member.img, alt: member.name, className: "rounded-xl shadow-2xl object-cover w-full h-full" })
-    ),
-    React.createElement("h1", {
-      className: "text-3xl sm:text-4xl md:text-5xl font-bold mt-6 text-white",
-      style: { fontFamily: "Sequel100Black, sans-serif", textShadow: "2px 2px 8px rgba(0,0,0,0.7)" }
-    }, member.name),
-    React.createElement("p", {
-      className: "mt-4 text-white text-sm sm:text-base md:text-lg max-w-md mx-auto",
-      style: { textShadow: "1px 1px 6px rgba(0,0,0,0.6)" }
-    }, member.bio)
-  );
-}
+  const [index, setIndex] = React.useState(0);
 
-// SNS 아이콘 섹션 (고정)
-function SocialSection() {
-  const icons = [
-    { href: "https://youtube.com/@boysplanet.official?si=uWoML6FSkZG1qDg1", src: "images/youtube.png", alt: "YouTube" },
-    { href: "https://www.instagram.com/boysplanet.official?igsh=MXJpYzVjeGljdzVyeg==", src: "images/instagram.png", alt: "Instagram" },
-    { href: "https://x.com/_mnetboysplanet?s=21", src: "images/x.png", alt: "X" }
-  ];
+  React.useEffect(() => {
+    if (!member.profileImgs || member.profileImgs.length === 0) return;
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % member.profileImgs.length);
+    }, 3000); // 3초마다 변경
+    return () => clearInterval(interval);
+  }, [member.profileImgs.length]);
 
   return React.createElement(
     "div",
-    { className: "fixed bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-6 z-50" },
-    icons.map((icon, idx) => React.createElement(
-      "a",
-      { key: idx, href: icon.href, target: "_blank", rel: "noopener noreferrer" },
-      React.createElement("img", { src: icon.src, alt: icon.alt, className: "w-10 h-10 sm:w-12 sm:h-12 hover:scale-125 transition-transform duration-300" })
-    ))
+    {
+      ref: ref,
+      className: `bg-white rounded-lg shadow-md p-4 sm:p-6 text-center cursor-pointer transform transition duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`,
+      onClick: () => onClick(member)
+    },
+    React.createElement("img", { 
+      src: member.profileImgs[index], 
+      alt: member.name, 
+      loading: "lazy",
+      className: "w-40 h-32 mx-auto rounded-lg object-cover transition duration-700 ease-in-out"
+    }),
+    React.createElement("h2", {
+      className: "text-lg sm:text-xl font-semibold mt-2",
+      style: { fontFamily: "Sequel100Black, sans-serif" }
+    }, member.name)
+  );
+}
+
+// SNS 아이콘 섹션
+function SocialSection() {
+  const [ref, visible] = useScrollAnimation();
+  return React.createElement(
+    "div",
+    { ref: ref, className: `mt-12 flex justify-center space-x-6 opacity-0 transform translate-y-10 transition duration-700 ${visible ? "opacity-100 translate-y-0" : ""}` },
+    React.createElement("a", { href: "https://www.youtube.com/ALPHAONE", target: "_blank", rel: "noopener noreferrer" },
+      React.createElement("img", { src: "images/youtube.png", alt: "YouTube", className: "w-8 h-8 sm:w-10 sm:h-10 hover:scale-125 transition transform duration-300" })
+    ),
+    React.createElement("a", { href: "https://www.instagram.com/ALPHAONE", target: "_blank", rel: "noopener noreferrer" },
+      React.createElement("img", { src: "images/instagram.png", alt: "Instagram", className: "w-8 h-8 sm:w-10 sm:h-10 hover:scale-125 transition transform duration-300" })
+    ),
+    React.createElement("a", { href: "https://x.com/ALPHAONE", target: "_blank", rel: "noopener noreferrer" },
+      React.createElement("img", { src: "images/x.png", alt: "X", className: "w-8 h-8 sm:w-10 sm:h-10 hover:scale-125 transition transform duration-300" })
+    )
   );
 }
 
 // 메인 앱
 function App() {
+  const [selectedMember, setSelectedMember] = React.useState(null);
+  const handleCloseModal = () => setSelectedMember(null);
+
   return React.createElement(
     "div",
-    { className: "w-full h-full overflow-x-hidden" },
-    React.createElement(MemberSection, { member: member }),
-    React.createElement(SocialSection)
+    { className: "container mx-auto p-4" },
+
+    // 제목 추가 (왼쪽 상단 고정)
+    React.createElement("h1", {
+      className: "text-2xl sm:text-3xl font-bold mb-6 fixed top-4 left-4 z-50",
+      style: { fontFamily: "Sequel100Black, sans-serif" }
+    }, "ALPHAONE PROJECT"),
+
+    // 멤버 카드 그리드
+    React.createElement(
+      "div",
+      { className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-16" },
+      members.map(member => React.createElement(MemberCard, { key: member.id, member: member, onClick: setSelectedMember }))
+    ),
+
+    React.createElement(SocialSection),
+
+    // 모달
+    selectedMember &&
+    React.createElement("div", {
+      className: "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50",
+      onClick: handleCloseModal
+    },
+      React.createElement("div", {
+        className: "bg-white p-6 rounded-lg w-11/12 max-w-md relative transition-transform duration-500 ease-in-out scale-95 hover:scale-100",
+        onClick: e => e.stopPropagation()
+      },
+        React.createElement("button", { className: "absolute top-2 right-2 text-gray-500", onClick: handleCloseModal }, "X"),
+        React.createElement("img", { src: selectedMember.detailImg, alt: selectedMember.name, className: "w-56 h-44 mx-auto rounded-lg object-cover" }),
+        React.createElement("h2", {
+          className: "text-2xl sm:text-3xl font-bold mt-4 text-center",
+          style: { fontFamily: "Sequel100Black, sans-serif" }
+        }, selectedMember.name),
+        React.createElement("p", { className: "mt-2 text-gray-600 text-center text-sm sm:text-base" }, selectedMember.bio)
+      )
+    )
   );
 }
 
