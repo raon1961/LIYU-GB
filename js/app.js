@@ -136,7 +136,7 @@ function MemberCard({ member, onClick }) {
       src: member.profileImgs[index], 
       alt: member.name, 
       loading: "lazy",
-      className: "w-40 h-32 mx-auto rounded-lg object-cover transition duration-700 ease-in-out"
+      className: "w-40 h-68 mx-auto rounded-lg object-cover transition duration-700 ease-in-out"
     }),
     React.createElement("h2", {
       className: "text-lg sm:text-xl font-semibold mt-2",
