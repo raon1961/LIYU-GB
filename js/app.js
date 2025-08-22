@@ -45,9 +45,8 @@ const members = [
     id: 5, 
     name: "최립우", 
     profileImgs: [
-      "images/liyu38.jpg", 
-      "images/liyu37.jpg",
-      "images/liyu36.jpg"
+      "images/liyu35.jpg", 
+      "images/liyu34.jpg"
     ], 
     detailImg: "images/liyu-pro5.jpg", 
     bio: "BOYS II PLANET에서 슈퍼스타가 될 첫 STEP을 내딛겠습니다!" 
