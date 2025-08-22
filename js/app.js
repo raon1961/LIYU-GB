@@ -1,95 +1,95 @@
 const members = [
   { 
     id: 1, 
-    name: "LEE SANG WON", 
+    name: "WE WANT", 
     profileImgs: [
       "images/lee-sang-won1.jpg", 
       "images/lee-sang-won2.jpg", 
       "images/lee-sang-won3.jpg"
     ], 
     detailImg: "images/lee-sang-won-detail.jpg", 
-    bio: "저는 늘 최선을 택하겠습니다." 
+    bio: "내가 생각한 나의 이미지는 차갑게 생긴 바보." 
   },
   { 
     id: 2, 
-    name: "ZHOU AN XIN", 
+    name: "CHUEI LI YU'S", 
     profileImgs: [
       "images/zhou-an-xin1.jpg", 
       "images/zhou-an-xin2.jpg", 
       "images/zhou-an-xin3.jpg"
     ], 
     detailImg: "images/zhou-an-xin-detail.jpg", 
-    bio: "이번 프로그램에서 최선을 다해서 제 모든 것을 보여드리고 여한 없이 하겠습니다." 
+    bio: "연습하며 생긴 습관은 정신 나가며 몸 움직이기." 
   },
   { 
     id: 3, 
-    name: "CHUNG SANG HYEON", 
+    name: "DEBUT", 
     profileImgs: [
       "images/chung-sang-hyeon1.jpg", 
       "images/chung-sang-hyeon2.jpg"
     ], 
     detailImg: "images/chung-sang-hyeon-detail.jpg", 
-    bio: "여러분들의 마음에 ALL TIME 0순위가 되겠습니다!" 
+    bio: "도전하고 싶은 무대 컨셉은 뭐든지!" 
   },
   { 
     id: 4, 
-    name: "KIM JUN SEO", 
+    name: "LOVELY", 
     profileImgs: [
       "images/kim-jun-seo1.jpg", 
       "images/kim-jun-seo2.jpg"
     ], 
     detailImg: "images/kim-jun-seo-detail.jpg", 
-    bio: "모든 무대가 항상 마지막이라는 생각으로 정말 열심히 할테니까 이쁘게 봐주시면 감사하겠습니다." 
+    bio: "나의 최대 강점은 얼굴!" 
   },
   { 
     id: 5, 
-    name: "LEE LEO", 
+    name: "CHUEI LI YU", 
     profileImgs: [
       "images/lee-leo1.jpg", 
       "images/lee-leo2.jpg"
     ], 
     detailImg: "images/lee-leo-detail.jpg", 
-    bio: "데뷔하겠습니다!!" 
+    bio: "BOYS II PLANET에서 슈퍼스타가 될 첫 STEP을 내딛겠습니다!" 
   },
   { 
     id: 6, 
-    name: "CHUEI LI YU", 
+    name: "VOTE", 
     profileImgs: [
       "images/chuei-li-yu1.jpg", 
       "images/chuei-li-yu2.jpg"
     ], 
     detailImg: "images/chuei-li-yu-detail.jpg", 
-    bio: "BOYS II PLANET에서 슈퍼스타가 될 첫 STEP을 내딛겠습니다!" 
+    bio: "과거 지원서 쓰던 립우에게 한마디 잘 될거니까 그냥 하자!" 
   },
   { 
     id: 7, 
-    name: "YOO KANG MIN", 
+    name: "崔立于", 
     profileImgs: [
       "images/yoo-kang-min1.jpg", 
       "images/yoo-kang-min2.jpg"
     ], 
     detailImg: "images/yoo-kang-min-detail.jpg", 
-    bio: "하루하루를 소중하게 여기고 무대 하나하나에 제가 할 수 있는 최선을 다하겠습니다!" 
+    bio: "지금 립우에게 힘이 되는 한마디는 잘 하고 있어 걱정마!" 
   },
   { 
     id: 8, 
-    name: "MASATO", 
+    name: "ㄘㄨㄟ ㄌㄧˋ ㄩˊ", 
     profileImgs: [
       "images/masato1.jpg", 
       "images/masato2.jpg"
     ], 
     detailImg: "images/masato-detail.jpg", 
-    bio: "한순간도 놓치지 않고 무대 위에서 모든 걸 불태우겠습니다!" 
+    bio: "미래 파이널을 앞둔 립우에게 한마디 이번에도 잘 할 수 있어!" 
   },
   { 
     id: 9, 
-    name: "HE XIN LONG", 
+    name: "최립우", 
     profileImgs: [
       "images/he-xin-long1.jpg", 
       "images/he-xin-long2.jpg"
     ], 
     detailImg: "images/he-xin-long-detail.jpg", 
-    bio: "최선을 다하겠습니다!" 
+    bio: "베스트 초이스 리부초이 놓치지 마세요!" 
   }
 ];
 
@@ -174,7 +174,7 @@ function App() {
     React.createElement("h1", {
       className: "text-2xl sm:text-3xl font-bold mb-6 fixed top-4 left-4 z-50",
       style: { fontFamily: "Sequel100Black, sans-serif" }
-    }, "ALPHAONE PROJECT"),
+    }, "CHUEI LI YU"),
 
     // 멤버 카드 그리드
     React.createElement(
