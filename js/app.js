@@ -3,9 +3,9 @@ const members = [
     id: 1, 
     name: "WE WANT", 
     profileImgs: [
-      "images/lee-sang-won1.jpg", 
-      "images/lee-sang-won2.jpg", 
-      "images/lee-sang-won3.jpg"
+      "images/liyu8.jpg", 
+      "images/liyu9.jpg", 
+      "images/liyu7.jpg"
     ], 
     detailImg: "images/liyu-pro1.jpg", 
     bio: "립우가 생각한 립우의 이미지는 차갑게 생긴 바보." 
@@ -14,9 +14,9 @@ const members = [
     id: 2, 
     name: "CHUEI LI YU'S", 
     profileImgs: [
-      "images/zhou-an-xin1.jpg", 
-      "images/zhou-an-xin2.jpg", 
-      "images/zhou-an-xin3.jpg"
+      "images/liyu44.jpg", 
+      "images/liyu45.jpg", 
+      "images/liyu46.jpg"
     ], 
     detailImg: "images/liyu-pro2.jpg", 
     bio: "립우가 연습하며 생긴 습관은 정신 나가며 몸 움직이기." 
@@ -25,8 +25,8 @@ const members = [
     id: 3, 
     name: "DEBUT", 
     profileImgs: [
-      "images/chung-sang-hyeon1.jpg", 
-      "images/chung-sang-hyeon2.jpg"
+      "images/liyu40.jpg", 
+      "images/liyu39.jpg"
     ], 
     detailImg: "images/liyu-pro3.jpg", 
     bio: "립우가 도전하고 싶은 무대 컨셉은 뭐든지!" 
@@ -35,18 +35,19 @@ const members = [
     id: 4, 
     name: "崔立于", 
     profileImgs: [
-      "images/kim-jun-seo1.jpg", 
-      "images/kim-jun-seo2.jpg"
+      "images/liyu32.jpg", 
+      "images/liyu33.jpg"
     ], 
     detailImg: "images/liyu-pro4.jpg", 
-    bio: "나의 최대 강점은 얼굴!" 
+    bio: "립우의 최대 강점은 얼굴!" 
   },
   { 
     id: 5, 
     name: "최립우", 
     profileImgs: [
-      "images/lee-leo1.jpg", 
-      "images/lee-leo2.jpg"
+      "images/liyu38.jpg", 
+      "images/liyu37.jpg",
+      "images/liyu36.jpg"
     ], 
     detailImg: "images/liyu-pro5.jpg", 
     bio: "BOYS II PLANET에서 슈퍼스타가 될 첫 STEP을 내딛겠습니다!" 
@@ -55,8 +56,9 @@ const members = [
     id: 6, 
     name: "CHUEI LI YU", 
     profileImgs: [
-      "images/chuei-li-yu1.jpg", 
-      "images/chuei-li-yu2.jpg"
+      "images/liyu22.jpg", 
+      "images/liyu23.jpg",
+      "images/liyu24.jpg"
     ], 
     detailImg: "images/liyu-pro6.jpg", 
     bio: "과거 지원서 쓰던 립우에게 한마디 잘 될거니까 그냥 하자!" 
@@ -65,8 +67,8 @@ const members = [
     id: 7, 
     name: "#순간콜렉터", 
     profileImgs: [
-      "images/yoo-kang-min1.jpg", 
-      "images/yoo-kang-min2.jpg"
+      "images/liyu17.jpg", 
+      "images/liyu18.jpg"
     ], 
     detailImg: "images/liyu-pro7.jpg", 
     bio: "지금 립우에게 힘이 되는 한마디는 잘 하고 있어 걱정마!" 
@@ -75,8 +77,8 @@ const members = [
     id: 8, 
     name: "#미대오빠", 
     profileImgs: [
-      "images/masato1.jpg", 
-      "images/masato2.jpg"
+      "images/liyu31.jpg", 
+      "images/liyu30.jpg"
     ], 
     detailImg: "images/liyu-pro8.jpg", 
     bio: "미래 파이널을 앞둔 립우에게 한마디 이번에도 잘 할 수 있어!" 
@@ -85,8 +87,8 @@ const members = [
     id: 9, 
     name: "#버니립우", 
     profileImgs: [
-      "images/he-xin-long1.jpg", 
-      "images/he-xin-long2.jpg"
+      "images/liyu16.jpg", 
+      "images/liyu15.jpg"
     ], 
     detailImg: "images/liyu-pro9.jpg", 
     bio: "베스트 초이스 리부초이 놓치지 마세요!" 
