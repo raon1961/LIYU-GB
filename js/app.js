@@ -49,7 +49,7 @@ const members = [
       "images/liyu37.jpg",
       "images/liyu36.jpg"
     ], 
-    detailImg: "images/liyu-pro5.jpg", 
+    detailImg: "images/liyu-pro5.png", 
     bio: "BOYS II PLANET에서 슈퍼스타가 될 첫 STEP을 내딛겠습니다!" 
   },
   { 
