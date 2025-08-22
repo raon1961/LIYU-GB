@@ -8,7 +8,7 @@ const members = [
       "images/lee-sang-won3.jpg"
     ], 
     detailImg: "images/liyu-pro1.jpg", 
-    bio: "내가 생각한 나의 이미지는 차갑게 생긴 바보." 
+    bio: "립우가 생각한 립우의 이미지는 차갑게 생긴 바보." 
   },
   { 
     id: 2, 
@@ -19,7 +19,7 @@ const members = [
       "images/zhou-an-xin3.jpg"
     ], 
     detailImg: "images/liyu-pro2.jpg", 
-    bio: "연습하며 생긴 습관은 정신 나가며 몸 움직이기." 
+    bio: "립우가 연습하며 생긴 습관은 정신 나가며 몸 움직이기." 
   },
   { 
     id: 3, 
@@ -29,11 +29,11 @@ const members = [
       "images/chung-sang-hyeon2.jpg"
     ], 
     detailImg: "images/liyu-pro3.jpg", 
-    bio: "도전하고 싶은 무대 컨셉은 뭐든지!" 
+    bio: "립우가 도전하고 싶은 무대 컨셉은 뭐든지!" 
   },
   { 
     id: 4, 
-    name: "LOVELY", 
+    name: "崔立于", 
     profileImgs: [
       "images/kim-jun-seo1.jpg", 
       "images/kim-jun-seo2.jpg"
@@ -43,7 +43,7 @@ const members = [
   },
   { 
     id: 5, 
-    name: "CHUEI LI YU", 
+    name: "최립우", 
     profileImgs: [
       "images/lee-leo1.jpg", 
       "images/lee-leo2.jpg"
@@ -53,7 +53,7 @@ const members = [
   },
   { 
     id: 6, 
-    name: "VOTE", 
+    name: "CHUEI LI YU", 
     profileImgs: [
       "images/chuei-li-yu1.jpg", 
       "images/chuei-li-yu2.jpg"
@@ -63,7 +63,7 @@ const members = [
   },
   { 
     id: 7, 
-    name: "崔立于", 
+    name: "#순간콜렉터", 
     profileImgs: [
       "images/yoo-kang-min1.jpg", 
       "images/yoo-kang-min2.jpg"
@@ -73,7 +73,7 @@ const members = [
   },
   { 
     id: 8, 
-    name: "최립우", 
+    name: "#미대오빠", 
     profileImgs: [
       "images/masato1.jpg", 
       "images/masato2.jpg"
@@ -83,7 +83,7 @@ const members = [
   },
   { 
     id: 9, 
-    name: "CHUEI LI YU", 
+    name: "#버니립우", 
     profileImgs: [
       "images/he-xin-long1.jpg", 
       "images/he-xin-long2.jpg"
