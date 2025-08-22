@@ -7,7 +7,7 @@ const members = [
       "images/lee-sang-won2.jpg", 
       "images/lee-sang-won3.jpg"
     ], 
-    detailImg: "images/lee-sang-won-detail.jpg", 
+    detailImg: "images/liyu-pro1.jpg", 
     bio: "내가 생각한 나의 이미지는 차갑게 생긴 바보." 
   },
   { 
@@ -18,7 +18,7 @@ const members = [
       "images/zhou-an-xin2.jpg", 
       "images/zhou-an-xin3.jpg"
     ], 
-    detailImg: "images/zhou-an-xin-detail.jpg", 
+    detailImg: "images/liyu-pro2.jpg", 
     bio: "연습하며 생긴 습관은 정신 나가며 몸 움직이기." 
   },
   { 
@@ -28,7 +28,7 @@ const members = [
       "images/chung-sang-hyeon1.jpg", 
       "images/chung-sang-hyeon2.jpg"
     ], 
-    detailImg: "images/chung-sang-hyeon-detail.jpg", 
+    detailImg: "images/liyu-pro3.jpg", 
     bio: "도전하고 싶은 무대 컨셉은 뭐든지!" 
   },
   { 
@@ -38,7 +38,7 @@ const members = [
       "images/kim-jun-seo1.jpg", 
       "images/kim-jun-seo2.jpg"
     ], 
-    detailImg: "images/kim-jun-seo-detail.jpg", 
+    detailImg: "images/liyu-pro4.jpg", 
     bio: "나의 최대 강점은 얼굴!" 
   },
   { 
@@ -48,7 +48,7 @@ const members = [
       "images/lee-leo1.jpg", 
       "images/lee-leo2.jpg"
     ], 
-    detailImg: "images/lee-leo-detail.jpg", 
+    detailImg: "images/liyu-pro5.jpg", 
     bio: "BOYS II PLANET에서 슈퍼스타가 될 첫 STEP을 내딛겠습니다!" 
   },
   { 
@@ -58,7 +58,7 @@ const members = [
       "images/chuei-li-yu1.jpg", 
       "images/chuei-li-yu2.jpg"
     ], 
-    detailImg: "images/chuei-li-yu-detail.jpg", 
+    detailImg: "images/liyu-pro6.jpg", 
     bio: "과거 지원서 쓰던 립우에게 한마디 잘 될거니까 그냥 하자!" 
   },
   { 
@@ -68,27 +68,27 @@ const members = [
       "images/yoo-kang-min1.jpg", 
       "images/yoo-kang-min2.jpg"
     ], 
-    detailImg: "images/yoo-kang-min-detail.jpg", 
+    detailImg: "images/liyu-pro7.jpg", 
     bio: "지금 립우에게 힘이 되는 한마디는 잘 하고 있어 걱정마!" 
   },
   { 
     id: 8, 
-    name: "ㄘㄨㄟ ㄌㄧˋ ㄩˊ", 
+    name: "최립우", 
     profileImgs: [
       "images/masato1.jpg", 
       "images/masato2.jpg"
     ], 
-    detailImg: "images/masato-detail.jpg", 
+    detailImg: "images/liyu-pro8.jpg", 
     bio: "미래 파이널을 앞둔 립우에게 한마디 이번에도 잘 할 수 있어!" 
   },
   { 
     id: 9, 
-    name: "최립우", 
+    name: "CHUEI LI YU", 
     profileImgs: [
       "images/he-xin-long1.jpg", 
       "images/he-xin-long2.jpg"
     ], 
-    detailImg: "images/he-xin-long-detail.jpg", 
+    detailImg: "images/liyu-pro9.jpg", 
     bio: "베스트 초이스 리부초이 놓치지 마세요!" 
   }
 ];
