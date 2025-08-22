@@ -2,18 +2,95 @@ const members = [
   { 
     id: 1, 
     name: "LEE SANG WON", 
-    profileImgs: ["images/lee-sang-won1.jpg", "images/lee-sang-won2.jpg"], 
+    profileImgs: [
+      "images/lee-sang-won1.jpg", 
+      "images/lee-sang-won2.jpg", 
+      "images/lee-sang-won3.jpg"
+    ], 
     detailImg: "images/lee-sang-won-detail.jpg", 
     bio: "저는 늘 최선을 택하겠습니다." 
   },
   { 
     id: 2, 
     name: "ZHOU AN XIN", 
-    profileImgs: ["images/zhou-an-xin1.jpg", "images/zhou-an-xin2.jpg", "images/zhou-an-xin3.jpg"], 
+    profileImgs: [
+      "images/zhou-an-xin1.jpg", 
+      "images/zhou-an-xin2.jpg", 
+      "images/zhou-an-xin3.jpg"
+    ], 
     detailImg: "images/zhou-an-xin-detail.jpg", 
     bio: "이번 프로그램에서 최선을 다해서 제 모든 것을 보여드리고 여한 없이 하겠습니다." 
   },
-  // ... 나머지 멤버들도 똑같이 profileImgs 배열로 수정
+  { 
+    id: 3, 
+    name: "CHUNG SANG HYEON", 
+    profileImgs: [
+      "images/chung-sang-hyeon1.jpg", 
+      "images/chung-sang-hyeon2.jpg"
+    ], 
+    detailImg: "images/chung-sang-hyeon-detail.jpg", 
+    bio: "여러분들의 마음에 ALL TIME 0순위가 되겠습니다!" 
+  },
+  { 
+    id: 4, 
+    name: "KIM JUN SEO", 
+    profileImgs: [
+      "images/kim-jun-seo1.jpg", 
+      "images/kim-jun-seo2.jpg"
+    ], 
+    detailImg: "images/kim-jun-seo-detail.jpg", 
+    bio: "모든 무대가 항상 마지막이라는 생각으로 정말 열심히 할테니까 이쁘게 봐주시면 감사하겠습니다." 
+  },
+  { 
+    id: 5, 
+    name: "LEE LEO", 
+    profileImgs: [
+      "images/lee-leo1.jpg", 
+      "images/lee-leo2.jpg"
+    ], 
+    detailImg: "images/lee-leo-detail.jpg", 
+    bio: "데뷔하겠습니다!!" 
+  },
+  { 
+    id: 6, 
+    name: "CHUEI LI YU", 
+    profileImgs: [
+      "images/chuei-li-yu1.jpg", 
+      "images/chuei-li-yu2.jpg"
+    ], 
+    detailImg: "images/chuei-li-yu-detail.jpg", 
+    bio: "BOYS II PLANET에서 슈퍼스타가 될 첫 STEP을 내딛겠습니다!" 
+  },
+  { 
+    id: 7, 
+    name: "YOO KANG MIN", 
+    profileImgs: [
+      "images/yoo-kang-min1.jpg", 
+      "images/yoo-kang-min2.jpg"
+    ], 
+    detailImg: "images/yoo-kang-min-detail.jpg", 
+    bio: "하루하루를 소중하게 여기고 무대 하나하나에 제가 할 수 있는 최선을 다하겠습니다!" 
+  },
+  { 
+    id: 8, 
+    name: "MASATO", 
+    profileImgs: [
+      "images/masato1.jpg", 
+      "images/masato2.jpg"
+    ], 
+    detailImg: "images/masato-detail.jpg", 
+    bio: "한순간도 놓치지 않고 무대 위에서 모든 걸 불태우겠습니다!" 
+  },
+  { 
+    id: 9, 
+    name: "HE XIN LONG", 
+    profileImgs: [
+      "images/he-xin-long1.jpg", 
+      "images/he-xin-long2.jpg"
+    ], 
+    detailImg: "images/he-xin-long-detail.jpg", 
+    bio: "최선을 다하겠습니다!" 
+  }
 ];
 
 // 스크롤 등장 훅
