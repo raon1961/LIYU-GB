@@ -111,7 +111,7 @@ function useScrollAnimation() {
   return [ref, visible];
 }
 
-// 멤버 카드
+// 카드
 function MemberCard({ member, onClick }) {
   const [ref, visible] = useScrollAnimation();
   const [index, setIndex] = React.useState(0);
@@ -171,13 +171,13 @@ function App() {
     "div",
     { className: "container mx-auto p-4" },
 
-    // 제목 추가 (왼쪽 상단 고정)
+    // 제목 (왼쪽 상단 고정)
     React.createElement("h1", {
       className: "text-2xl sm:text-3xl font-bold mb-6 fixed top-4 left-4 z-50",
       style: { fontFamily: "Sequel100Black, sans-serif" }
     }, "CHUEI LI YU"),
 
-    // 멤버 카드 그리드
+    // 카드 그리드
     React.createElement(
       "div",
       { className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-16" },
