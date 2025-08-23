@@ -128,8 +128,8 @@ function MemberCard({ member, onClick }) {
     "div",
     {
       ref: ref,
-      className: `bg-white rounded-lg shadow-md p-4 sm:p-6 text-center cursor-pointer transform transition duration-700 ${
-        visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+      className: `bg-white rounded-lg shadow-md p-4 sm:p-6 text-center cursor-pointer transform transition duration-500 ${
+        visible ? "animate-fadeInUp" : "opacity-0 pointer-events-none"
       }`,
       onClick: () => onClick(member)
     },
@@ -137,9 +137,7 @@ function MemberCard({ member, onClick }) {
       src: member.profileImgs[index],
       alt: member.name,
       loading: "lazy",
-      className:
-        "w-50 h-60 mx-auto rounded-lg object-cover transition duration-700 ease-in-out" 
-        // 고정된 크기 + 비율 무시하고 맞춤
+      className: "w-52 h-72 mx-auto rounded-lg object-cover transition duration-700 ease-in-out"
     }),
     React.createElement("h2", {
       className: "text-lg sm:text-xl font-semibold mt-2",
