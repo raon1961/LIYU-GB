@@ -197,7 +197,7 @@ function App() {
         onClick: e => e.stopPropagation()
       },
         React.createElement("button", { className: "absolute top-2 right-2 text-gray-500", onClick: handleCloseModal }, "X"),
-        React.createElement("img", { src: selectedMember.detailImg, alt: selectedMember.name, className: "w-56 h-44 mx-auto rounded-lg object-cover" }),
+        React.createElement("img", { src: selectedMember.detailImg, alt: selectedMember.name, className: "w-70 h-55 mx-auto rounded-lg object-cover" }),
         React.createElement("h2", {
           className: "text-2xl sm:text-3xl font-bold mt-4 text-center",
           style: { fontFamily: "Sequel100Black, sans-serif" }
