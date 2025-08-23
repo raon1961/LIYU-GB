@@ -128,14 +128,18 @@ function MemberCard({ member, onClick }) {
     "div",
     {
       ref: ref,
-      className: `bg-white rounded-lg shadow-md p-4 sm:p-6 text-center cursor-pointer transform transition duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`,
+      className: `bg-white rounded-lg shadow-md p-4 sm:p-6 text-center cursor-pointer transform transition duration-700 ${
+        visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+      }`,
       onClick: () => onClick(member)
     },
-    React.createElement("img", { 
-      src: member.profileImgs[index], 
-      alt: member.name, 
+    React.createElement("img", {
+      src: member.profileImgs[index],
+      alt: member.name,
       loading: "lazy",
-      className: "w-50 h-75 mx-auto rounded-lg object-cover transition duration-700 ease-in-out"
+      className:
+        "w-52 h-72 mx-auto rounded-lg object-fill transition duration-700 ease-in-out" 
+        // 고정된 크기 + 비율 무시하고 맞춤
     }),
     React.createElement("h2", {
       className: "text-lg sm:text-xl font-semibold mt-2",
@@ -181,7 +185,9 @@ function App() {
     React.createElement(
       "div",
       { className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-16" },
-      members.map(member => React.createElement(MemberCard, { key: member.id, member: member, onClick: setSelectedMember }))
+      members.map(member =>
+        React.createElement(MemberCard, { key: member.id, member: member, onClick: setSelectedMember })
+      )
     ),
 
     React.createElement(SocialSection),
@@ -193,7 +199,7 @@ function App() {
       onClick: handleCloseModal
     },
       React.createElement("div", {
-        className: "bg-white p-6 rounded-lg w-11/12 max-w-md relative transition-transform duration-500 ease-in-out scale-95 hover:scale-100",
+        className: "bg-white p-6 rounded-lg w-11/12 max-w-md relative transform transition-all duration-500 ease-out scale-95 opacity-0 animate-fade-in",
         onClick: e => e.stopPropagation()
       },
         React.createElement("button", { className: "absolute top-2 right-2 text-gray-500", onClick: handleCloseModal }, "X"),
