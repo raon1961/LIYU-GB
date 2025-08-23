@@ -191,30 +191,24 @@ function App() {
     React.createElement(SocialSection),
 
     // 모달
-    selectedMember &&
-    React.createElement("div", {
-      className: "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50",
-      onClick: handleCloseModal
-    },
-      React.createElement("div", {
-        className: "bg-white p-6 rounded-lg w-11/12 max-w-md relative transform animate-fadeInModal",
-        onClick: e => e.stopPropagation()
-      },
-        React.createElement("button", { className: "absolute top-2 right-2 text-gray-500", onClick: handleCloseModal }, "X"),
-        React.createElement("img", {
-          src: selectedMember.detailImg,
-          alt: selectedMember.name,
-          className: "w-full h-64 sm:h-72 mx-auto rounded-lg object-cover"
-        }),
-        React.createElement("h2", {
-          className: "text-2xl sm:text-3xl font-bold mt-4 text-center",
-          style: { fontFamily: "Sequel100Black, sans-serif" }
-        }, selectedMember.name),
-        React.createElement("p", {
-          className: "mt-2 text-gray-600 text-center text-sm sm:text-base"
-        }, selectedMember.bio)
-      )
-    )
+selectedMember &&
+React.createElement("div", {
+  className: "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50",
+  onClick: handleCloseModal
+},
+  React.createElement("div", {
+    className: "bg-white p-6 rounded-lg w-11/12 max-w-md relative animate-fadeInModal",
+    onClick: e => e.stopPropagation()
+  },
+    React.createElement("button", { className: "absolute top-2 right-2 text-gray-500", onClick: handleCloseModal }, "X"),
+    React.createElement("img", { src: selectedMember.detailImg, alt: selectedMember.name, className: "w-full h-72 mx-auto rounded-lg object-cover" }),
+    React.createElement("h2", {
+      className: "text-2xl sm:text-3xl font-bold mt-4 text-center",
+      style: { fontFamily: "Sequel100Black, sans-serif" }
+    }, selectedMember.name),
+    React.createElement("p", { className: "mt-2 text-gray-600 text-center text-sm sm:text-base" }, selectedMember.bio)
+  )
+)
   );
 }
 
