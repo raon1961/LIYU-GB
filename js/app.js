@@ -138,7 +138,7 @@ function MemberCard({ member, onClick }) {
       alt: member.name,
       loading: "lazy",
       className:
-        "w-52 h-72 mx-auto rounded-lg object-fill transition duration-700 ease-in-out" 
+        "w-50 h-60 mx-auto rounded-lg object-cover transition duration-700 ease-in-out" 
         // 고정된 크기 + 비율 무시하고 맞춤
     }),
     React.createElement("h2", {
