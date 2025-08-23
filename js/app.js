@@ -197,16 +197,22 @@ function App() {
       onClick: handleCloseModal
     },
       React.createElement("div", {
-        className: "bg-white p-6 rounded-lg w-11/12 max-w-md relative transform transition-all duration-500 ease-out scale-95 opacity-0 animate-fade-in",
+        className: "bg-white p-6 rounded-lg w-11/12 max-w-md relative transform animate-fadeInModal",
         onClick: e => e.stopPropagation()
       },
         React.createElement("button", { className: "absolute top-2 right-2 text-gray-500", onClick: handleCloseModal }, "X"),
-        React.createElement("img", { src: selectedMember.detailImg, alt: selectedMember.name, className: "w-70 h-55 mx-auto rounded-lg object-cover" }),
+        React.createElement("img", {
+          src: selectedMember.detailImg,
+          alt: selectedMember.name,
+          className: "w-full h-64 sm:h-72 mx-auto rounded-lg object-cover"
+        }),
         React.createElement("h2", {
           className: "text-2xl sm:text-3xl font-bold mt-4 text-center",
           style: { fontFamily: "Sequel100Black, sans-serif" }
         }, selectedMember.name),
-        React.createElement("p", { className: "mt-2 text-gray-600 text-center text-sm sm:text-base" }, selectedMember.bio)
+        React.createElement("p", {
+          className: "mt-2 text-gray-600 text-center text-sm sm:text-base"
+        }, selectedMember.bio)
       )
     )
   );
