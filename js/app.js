@@ -129,7 +129,7 @@ function MemberCard({ member, onClick }) {
     {
       ref: ref,
       className: `bg-white rounded-lg shadow-md p-4 sm:p-6 text-center cursor-pointer transform transition duration-500 ${
-        visible ? "animate-fadeInUp" : "opacity-0 pointer-events-none"
+        visible ? "animate-fadeInUp" : "opacity-0"
       }`,
       onClick: () => onClick(member)
     },
