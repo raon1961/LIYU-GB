@@ -89,7 +89,7 @@ const members = [
       "images/liyu16.jpg", 
       "images/liyu15.jpg"
     ], 
-    detailImg: "images/liyu-pro9.gif", 
+    detailImg: "images/liyu-pro9.GIF", 
     bio: "베스트 초이스 리부초이 놓치지 마세요!" 
   }
 ];
