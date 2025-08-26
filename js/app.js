@@ -14,9 +14,9 @@ const members = [
     id: 2, 
     name: "CHUEI LI YU'S", 
     profileImgs: [
-      "images/liyu44.jpg", 
-      "images/liyu45.jpg", 
-      "images/liyu46.jpg"
+      "images/liyu51.jpg", 
+      "images/liyu50.jpg", 
+      "images/liyu49.jpg"
     ], 
     detailImg: "images/liyu-pro2.jpg", 
     bio: "립우가 연습하며 생긴 습관은 정신 나가며 몸 움직이기." 
@@ -35,8 +35,8 @@ const members = [
     id: 4, 
     name: "崔立于", 
     profileImgs: [
-      "images/liyu32.jpg", 
-      "images/liyu33.jpg"
+      "images/liyu52.jpg", 
+      "images/liyu53.jpg"
     ], 
     detailImg: "images/liyu-pro4.jpg", 
     bio: "립우의 최대 강점은 얼굴!" 
