@@ -7,7 +7,7 @@ const members = [
       "images/liyu9.jpg", 
       "images/liyu7.jpg"
     ], 
-    detailImg: "images/liyu-pro1.jpg", 
+    detailImg: "images/liyu-pro1.gif", 
     bio: "립우가 생각한 립우의 이미지는 차갑게 생긴 바보." 
   },
   { 
