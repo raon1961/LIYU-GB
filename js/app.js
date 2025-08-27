@@ -86,8 +86,8 @@ const members = [
     id: 9, 
     name: "#버니립우", 
     profileImgs: [
-      "images/liyu16.jpg", 
-      "images/liyu15.jpg"
+      "images/liyu54.jpg", 
+      "images/liyu55.jpg"
     ], 
     detailImg: "images/liyu-pro9.GIF", 
     bio: "베스트 초이스 리부초이 놓치지 마세요!" 
