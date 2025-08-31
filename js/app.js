@@ -28,15 +28,15 @@ const members = [
       "images/liyu40.jpg", 
       "images/liyu39.jpg"
     ], 
-    detailImg: "images/liyu-pro3.jpg", 
+    detailImg: "images/liyu-pro10.jpg", 
     bio: "립우가 도전하고 싶은 무대 컨셉은 뭐든지!" 
   },
   { 
     id: 4, 
     name: "崔立于", 
     profileImgs: [
-      "images/liyu52.jpg", 
-      "images/liyu53.jpg"
+      "images/liyu63.jpg", 
+      "images/liyu64.jpg"
     ], 
     detailImg: "images/liyu-pro4.jpg", 
     bio: "립우의 최대 강점은 얼굴!" 
@@ -66,8 +66,9 @@ const members = [
     id: 7, 
     name: "#순간콜렉터", 
     profileImgs: [
-      "images/liyu17.jpg", 
-      "images/liyu18.jpg"
+      "images/liyu60.jpg", 
+      "images/liyu61.jpg",
+      "images/liyu62.jpg"
     ], 
     detailImg: "images/liyu-pro7.jpg", 
     bio: "지금 립우에게 힘이 되는 한마디는 잘 하고 있어 걱정마!" 
@@ -86,8 +87,8 @@ const members = [
     id: 9, 
     name: "#버니립우", 
     profileImgs: [
-      "images/liyu54.jpg", 
-      "images/liyu55.jpg"
+      "images/liyu58.jpg", 
+      "images/liyu59.jpg"
     ], 
     detailImg: "images/liyu-pro9.GIF", 
     bio: "베스트 초이스 리부초이 놓치지 마세요!" 
