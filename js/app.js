@@ -83,7 +83,7 @@ const members = [
   },
   { 
     id: 9, 
-    name: "#BUNNYLIYU", 
+    name: "#BunnyLiyu", 
     profileImgs: [
       "images/liyu10.jpeg", 
       "images/liyu11.jpeg"
