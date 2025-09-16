@@ -7,7 +7,7 @@ const members = [
       "images/liyu24.jpeg"
     ], 
     detailImg: "images/liyu-pro1.gif", 
-    bio: "립우가 생각한 립우의 이미지는 차갑게 생긴 바보." 
+    bio: "The image LIYU has of himself is a cold-looking fool." 
   },
   { 
     id: 2, 
@@ -18,7 +18,7 @@ const members = [
       "images/liyu14.jpeg"
     ], 
     detailImg: "images/liyu-pro2.jpeg", 
-    bio: "립우가 연습하며 생긴 습관은 정신 나가며 몸 움직이기." 
+    bio: "A habit LIYU developed during practice is moving his body absentmindedly." 
   },
   { 
     id: 3, 
@@ -28,7 +28,7 @@ const members = [
       "images/liyu29.jpeg"
     ], 
     detailImg: "images/liyu-pro3.jpeg", 
-    bio: "립우가 도전하고 싶은 무대 컨셉은 뭐든지!" 
+    bio: "The stage concept LIYU wants to challenge is anything!" 
   },
   { 
     id: 4, 
@@ -38,18 +38,18 @@ const members = [
       "images/liyu33.jpeg"
     ], 
     detailImg: "images/liyu-pro4.jpeg", 
-    bio: "립우의 최대 강점은 얼굴!" 
+    bio: "LIYU’s biggest strength is his face!" 
   },
   { 
     id: 5, 
-    name: "최립우", 
+    name: "チェリブ", 
     profileImgs: [
       "images/liyu36.jpeg", 
       "images/liyu37.jpeg", 
       "images/liyu38.jpeg"
     ], 
     detailImg: "images/liyu-pro5.jpeg", 
-    bio: "BOYS II PLANET에서 슈퍼스타가 될 첫 STEP을 내딛겠습니다!" 
+    bio: "I'll take my first STEP to become a superstar on BOYS II PLANET!" 
   },
   { 
     id: 6, 
@@ -59,37 +59,37 @@ const members = [
       "images/liyu35.jpeg"
     ], 
     detailImg: "images/liyu-pro6.jpeg", 
-    bio: "과거 지원서 쓰던 립우에게 한마디 잘 될거니까 그냥 하자!" 
+    bio: "It’s going to work out, so just go for it!" 
   },
   { 
     id: 7, 
-    name: "#순간콜렉터", 
+    name: "#MomentCollector", 
     profileImgs: [
       "images/liyu46.jpeg", 
       "images/liyu47.jpeg"
     ], 
     detailImg: "images/liyu-pro7.jpeg", 
-    bio: "지금 립우에게 힘이 되는 한마디는 잘 하고 있어 걱정마!" 
+    bio: "You’re doing well, don’t worry!" 
   },
   { 
     id: 8, 
-    name: "#미대오빠", 
+    name: "#ArtSchoolOppa", 
     profileImgs: [
       "images/liyu5.jpeg", 
       "images/liyu6.jpeg"
     ], 
     detailImg: "images/liyu-pro8.jpeg", 
-    bio: "미래 파이널을 앞둔 립우에게 한마디 이번에도 잘 할 수 있어!" 
+    bio: "You can do well this time too!" 
   },
   { 
     id: 9, 
-    name: "#버니립우", 
+    name: "#BUNNYLIYU", 
     profileImgs: [
       "images/liyu10.jpeg", 
       "images/liyu11.jpeg"
     ], 
     detailImg: "images/liyu-pro9.jpeg", 
-    bio: "베스트 초이스 리부초이 놓치지 마세요!" 
+    bio: "Don’t miss the Best Choice, LIYU CHOI!" 
   }
 ];
 
